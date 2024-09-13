@@ -31,7 +31,7 @@ BuildRequires:  luajit
 BuildRequires:	vala
 BuildRequires:	meson
 BuildRequires:	cmake
-BuildRequires:  mozjs128
+BuildRequires:  pkgconfig(mozjs-128)
 
 %description
 This is GNOME's plugin handling library.
