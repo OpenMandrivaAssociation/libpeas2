@@ -11,7 +11,7 @@
 
 Summary:	Library for plugin handling
 Name:		libpeas2
-Version:	2.0.7
+Version:	2.1.0
 Release:	1
 Group:		System/Libraries
 License:	LGPLv2+
@@ -31,7 +31,7 @@ BuildRequires:  luajit
 BuildRequires:	vala
 BuildRequires:	meson
 BuildRequires:	cmake
-BuildRequires:  pkgconfig(mozjs-128)
+BuildRequires:  pkgconfig(mozjs-140)
 
 %description
 This is GNOME's plugin handling library.
