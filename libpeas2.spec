@@ -96,6 +96,7 @@ developing applications that use %{name}.
 %{_libdir}/libpeas-2.so
 %{_libdir}/pkgconfig/libpeas-2.pc
 %{_datadir}/gir-1.0/Peas-2.gir
+%{_datadir}/vala/
 #---------------------------------------------------------------------------
 
 %prep
