@@ -12,7 +12,7 @@
 Summary:	Library for plugin handling
 Name:		libpeas2
 Version:	2.2.0
-Release:	1
+Release:	2
 Group:		System/Libraries
 License:	LGPLv2+
 Url:		https://www.gnome.org/
@@ -96,6 +96,7 @@ developing applications that use %{name}.
 %{_libdir}/libpeas-2.so
 %{_libdir}/pkgconfig/libpeas-2.pc
 %{_datadir}/gir-1.0/Peas-2.gir
+%{_datadir}/vala/
 #---------------------------------------------------------------------------
 
 %prep
@@ -104,7 +105,8 @@ developing applications that use %{name}.
 
 %build
 %meson  \
-        -Dlua51=false
+        -Dlua51=false \
+        -Dvapi=true
 %meson_build
 
 %install
