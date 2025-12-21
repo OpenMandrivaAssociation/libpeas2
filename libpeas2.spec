@@ -12,7 +12,7 @@
 Summary:	Library for plugin handling
 Name:		libpeas2
 Version:	2.2.0
-Release:	2
+Release:	3
 Group:		System/Libraries
 License:	LGPLv2+
 Url:		https://www.gnome.org/
